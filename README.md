@@ -52,8 +52,8 @@ If you wish the package to reside elsewhere change the homestead.yaml 'folders' 
 **_'~/' refers to '\Users\[Current User]\' on a windows machine._**
 
 
-#####Create your SSH keys:
-Create a set of public and private SSH keys, and place them in '\Users\[Current User]\.ssh'.  The key files should be named 'id_rsa' and 'id_rsa.pub'.
+#####Create Your SSH Keys:
+Create a set of public and private SSH keys, and place them in '\Users\[Current User]\.ssh'.  The private and public key files should be named 'id_rsa' and 'id_rsa.pub' respectively.
 
 #####Example homestead.yaml
 homestead.yaml should appear as follows:
@@ -87,7 +87,7 @@ variables:
 
 
 
-####Clone the repository
+####Clone The Repository
 This package is configured to reside in '\Users\[Current User]\Code'.  Create this folder, then clone the repository into it.
 
 Open a command prompt in the root folder you just created, and clone the repository into it:
@@ -97,7 +97,7 @@ git clone https://github.com/gsalmon/ProofOfConcept.git
 
 
 
-####Configure hosts
+####Configure Hosts
 You will need to modify your servers hosts file to use the ip address specified in the homestead.yaml file.  Add the following to the end of your hosts file:
 
 ```
@@ -105,6 +105,12 @@ You will need to modify your servers hosts file to use the ip address specified 
 ```
 
 On a windows machine the hosts file can be found in '[Windows]\System32\drivers\etc\'.
+
+####Launch The Vagrant Box
+Open a command prompt in the root folder you created and cloned the repository into, then launch the vagrant box with the following command:
+```
+vagrant up --provision
+```
 
 The web should now be available at http://option1.local !
 
