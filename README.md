@@ -43,18 +43,20 @@ homestead init
 ```
 The Homestead.yaml file will be placed in the ~/.homestead directory.
 
-#####Create your SSH keys:
-Create a set of public and private SSH keys, and place them in '\Users\[Current User]\.ssh'.  The key files should be named 'id_rsa' and 'id_rsa.pub'.
-
 ####Configuring the homestead.yaml 
 This package is configured to reside in '\Users\[Current User]\Code'.  You will need to configure the '~/.homestead/homestead.yaml' file to reflect this.
 If you wish the package to reside elsewhere change the homestead.yaml 'folders' section accordingly.  
 
-If the ip address provided does not suit your requirements, change it accordingly.  
+*If the ip address provided does not suit your requirements, change it accordingly.*
 
-'~/' refers to '\Users\[Current User]\' on a windows machine.
+**_'~/' refers to '\Users\[Current User]\' on a windows machine._**
 
-#####homestead.yaml should contain the following:
+
+#####Create your SSH keys:
+Create a set of public and private SSH keys, and place them in '\Users\[Current User]\.ssh'.  The key files should be named 'id_rsa' and 'id_rsa.pub'.
+
+#####Example homestead.yaml
+homestead.yaml should appear as follows:
 ```
 ---
 ip: "192.168.10.11"
@@ -88,7 +90,7 @@ variables:
 ####Clone the repository
 This package is configured to reside in '\Users\[Current User]\Code'.  Create this folder, then clone the repository into it.
 
-Open a command prompt in the root folder you jsut created, and clone the repository:
+Open a command prompt in the root folder you just created, and clone the repository into it:
 ```
 git clone https://github.com/gsalmon/ProofOfConcept.git
 ```
@@ -104,7 +106,7 @@ You will need to modify your servers hosts file to use the ip address specified 
 
 On a windows machine the hosts file can be found in '[Windows]\System32\drivers\etc\'.
 
-The web should now be available at [http://option1.local]!
+The web should now be available at http://option1.local !
 
 ##Usage
 Needs Content
