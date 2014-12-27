@@ -18,7 +18,7 @@ Documentation for homestead can be found here:  (http://laravel.com/docs/4.2/hom
 
 ####Installing VirtualBox & Vagrant
 
-Before launching your Homestead environment, you must install VirtualBox and Vagrant. Both of these software packages provide easy-to-use visual installers for all popular operating systems.
+Before launching your Homestead environment, you must install [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) and [Vagrant] (http://www.vagrantup.com/downloads.html). Both of these software packages provide easy-to-use visual installers for all popular operating systems.
 
 ####Adding The Vagrant Box
 
@@ -111,6 +111,7 @@ Open a command prompt in the root folder you created and cloned the repository i
 ```
 vagrant up --provision
 ```
+The '--provision' argument ensure that vagrant provisions our environment properly.  
 
 The web should now be available at http://option1.local !
 
