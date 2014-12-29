@@ -122,6 +122,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Laravel\Cashier\CashierServiceProvider',
+        'App\Providers\StorageServiceProvider',
+        'App\Providers\PaymentServiceProvider'
 
 	),
 

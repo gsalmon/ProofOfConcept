@@ -14,5 +14,6 @@ return array(
 	*/
 
 	'debug' => true,
+    'project_name' => 'Proof Of Concept'
 
 );

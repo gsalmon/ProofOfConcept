@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'proofofconcept',
+			'database'  => 'homestead',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

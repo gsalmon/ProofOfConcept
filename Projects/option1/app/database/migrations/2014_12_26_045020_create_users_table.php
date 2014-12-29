@@ -12,9 +12,12 @@ class CreateUsersTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('users', function(Blueprint $table)
+		Schema::create('users', function($table)
 		{
-				$table->tinyInteger('id')->default(0);
+				$table->increments('id');
+                $table->string('email');
+                $table->dateTime('created_at');
+                $table->dateTime('updated_at');
 		});
 	}
 
@@ -25,10 +28,7 @@ class CreateUsersTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('users', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('users');
 	}
 
 }

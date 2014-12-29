@@ -107,16 +107,31 @@ You will need to modify your servers hosts file to use the ip address specified 
 On a windows machine the hosts file can be found in '[Windows]\System32\drivers\etc\'.
 
 ####Launch The Vagrant Box
-Open a command prompt in the root folder you created and cloned the repository into, then launch the vagrant box with the following command:
+Open a command prompt in the projects '\Homestead' folder (located in the root folder you created and cloned the repository into), then launch the vagrant box with the following command:
 ```
 vagrant up --provision
 ```
 The '--provision' argument ensure that vagrant provisions our environment properly.  
 
+####Migrate And Seed The Database
+Now you will have to set up the database.  For the purposes of this proof of concept we will be seeding the database with some test data as well.
+
+Open a new shell into the test environment by typing:
+```
+vagrant ssh
+```
+
+Navigate to the project folder '`/Code/Projects/option1/' and run the following artisan commands:
+```
+php artisan migrate
+php artisan db:seed
+```
+
 The web should now be available at http://option1.local !
 
 ##Usage
-Needs Content
+
+- The application automatically logs in as user 1
 
 
 

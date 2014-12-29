@@ -11,26 +11,14 @@
 |
 */
 
+//For proof of concept purposes only, log user in as user 1
+if(Schema::hasTable('user'))
+    Auth::loginUsingId(1);
 
+//For the purposes of this proof of concept, we will use a page controller to demonstrate re-usability
 Route::get('/','PagesController@home');
 
-/*
-Route::get('/', function()
-{
-	return View::make('hello');
-});*/
+Route::get('/checkout', 'PagesController@display_checkout');
 
-Route::get('/cart', function()
-{
-	return "Cart";
-});
+Route::post('/checkout', 'PagesController@process_checkout');
 
-Route::get('/checkout', function()
-{
-	return "Checkout";
-});
-
-Route::get('/result', function()
-{
-	return "result";
-});
