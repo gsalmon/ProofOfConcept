@@ -141,7 +141,7 @@ The web should now be available at http://option1.local !
 Unit tests can be found in the '/tests' folder.
 
 ##High Level OverView
-A non-technical overview document can be found here: [a link](https://github.com/gsalmon/ProofOfConcept/overview.md)
+A non-technical overview document can be found here: [non-technical overview](https://github.com/gsalmon/ProofOfConcept/blob/master/overview.md)
 
 
 
