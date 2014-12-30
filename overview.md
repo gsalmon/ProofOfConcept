@@ -4,7 +4,8 @@ The following is a non-technical overview of the Proof of Concept app.
 
 ##Overview
 This app uses the Laravel framework for PHP to display the contents of an imaginary shopping cart, and the 
-Stripe.com API to allow users to pretend to pay for the contents of that cart.
+Stripe.com API to allow users to pretend to pay for the contents of that cart.  It is in no way to be considered
+an actual application, as it exists as a proof of concept only.
 
 
 ##Future Development
