@@ -12,8 +12,7 @@
 */
 
 //For proof of concept purposes only, log user in as user 1
-if(Schema::hasTable('user'))
-    Auth::loginUsingId(1);
+Auth::loginUsingId(1);
 
 //For the purposes of this proof of concept, we will use a page controller to demonstrate re-usability
 Route::get('/','PagesController@home');

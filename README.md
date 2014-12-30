@@ -132,6 +132,16 @@ The web should now be available at http://option1.local !
 ##Usage
 
 - The application automatically logs in as user 1
+- Click the 'Start' button on the welcome page
+- Click the 'Pay with Card' button (noting the provided information about test credit cards)
+- Enter your test credit card info into the modal popup and submit the form.
+- You should see a confirmation message that the transaction has been recorded.
+
+##Testing
+Unit tests can be found in the '/tests' folder.
+
+##High Level OverView
+A non-technical overview document can be found here: [a link](https://github.com/gsalmon/ProofOfConcept/overview.md)
 
 
 
