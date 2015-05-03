@@ -1,4 +1,4 @@
-In-Touch Insight Systems - Proof of Concept
+Proof of Concept
 ======================
 
 
