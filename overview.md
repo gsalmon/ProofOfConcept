@@ -8,7 +8,7 @@ Stripe.com API to allow users to pretend to pay for the contents of that cart.
 
 The intended purpose of this app is to demonstrate the integration of the Stripe.com API into a Laravel web site.
 
-This is in no way to be considered an actual production application, as it exists as a proof of concept only.
+This is in no way to be considered an actual production application, it exists as a proof of concept only.
 
 
 ##Future Development
