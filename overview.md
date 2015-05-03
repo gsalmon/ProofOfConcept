@@ -1,4 +1,4 @@
-In-Touch Insight Systems - Proof of Concept Overview
+Proof of Concept Overview
 ======================
 The following is a non-technical overview of the Proof of Concept app.
 
